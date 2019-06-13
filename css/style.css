@@ -1,0 +1,39 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+}
+  #map {
+    height: 100%;
+}
+
+.imagenes {
+  width: 400px;
+}
+
+.angular-google-map-container{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.titulo{
+  color: rgb(241, 236, 236);
+  text-align: center;
+  background-color: rgb(159, 204, 218);
+  border-color: #2b2525;
+  top: 0;
+  border-width: 0 0 1px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.headess{
+  float: left;
+}
